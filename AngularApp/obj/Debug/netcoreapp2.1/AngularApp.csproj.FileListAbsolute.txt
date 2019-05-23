@@ -1,0 +1,14 @@
+C:\AngularApp\AngularApp\bin\Debug\netcoreapp2.1\AngularApp.deps.json
+C:\AngularApp\AngularApp\bin\Debug\netcoreapp2.1\AngularApp.runtimeconfig.json
+C:\AngularApp\AngularApp\bin\Debug\netcoreapp2.1\AngularApp.runtimeconfig.dev.json
+C:\AngularApp\AngularApp\bin\Debug\netcoreapp2.1\AngularApp.dll
+C:\AngularApp\AngularApp\bin\Debug\netcoreapp2.1\AngularApp.pdb
+C:\AngularApp\AngularApp\obj\Debug\netcoreapp2.1\AngularApp.csprojAssemblyReference.cache
+C:\AngularApp\AngularApp\obj\Debug\netcoreapp2.1\AngularApp.csproj.CoreCompileInputs.cache
+C:\AngularApp\AngularApp\obj\Debug\netcoreapp2.1\AngularApp.RazorAssemblyInfo.cache
+C:\AngularApp\AngularApp\obj\Debug\netcoreapp2.1\AngularApp.RazorAssemblyInfo.cs
+C:\AngularApp\AngularApp\obj\Debug\netcoreapp2.1\AngularApp.AssemblyInfoInputs.cache
+C:\AngularApp\AngularApp\obj\Debug\netcoreapp2.1\AngularApp.AssemblyInfo.cs
+C:\AngularApp\AngularApp\obj\Debug\netcoreapp2.1\AngularApp.RazorTargetAssemblyInfo.cache
+C:\AngularApp\AngularApp\obj\Debug\netcoreapp2.1\AngularApp.dll
+C:\AngularApp\AngularApp\obj\Debug\netcoreapp2.1\AngularApp.pdb

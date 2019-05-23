@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yqin\\OneDrive - KNEX\\Desktop\\AngularApp\\AngularApp\\AngularApp.csproj": {}
+    "C:\\AngularApp\\AngularApp\\AngularApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yqin\\OneDrive - KNEX\\Desktop\\AngularApp\\AngularApp\\AngularApp.csproj": {
+    "C:\\AngularApp\\AngularApp\\AngularApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yqin\\OneDrive - KNEX\\Desktop\\AngularApp\\AngularApp\\AngularApp.csproj",
+        "projectUniqueName": "C:\\AngularApp\\AngularApp\\AngularApp.csproj",
         "projectName": "AngularApp",
-        "projectPath": "C:\\Users\\yqin\\OneDrive - KNEX\\Desktop\\AngularApp\\AngularApp\\AngularApp.csproj",
+        "projectPath": "C:\\AngularApp\\AngularApp\\AngularApp.csproj",
         "packagesPath": "C:\\Users\\yqin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yqin\\OneDrive - KNEX\\Desktop\\AngularApp\\AngularApp\\obj\\",
+        "outputPath": "C:\\AngularApp\\AngularApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
