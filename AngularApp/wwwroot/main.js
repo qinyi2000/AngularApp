@@ -87,7 +87,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\r\n<router-outlet></router-outlet>\r\n\r\n<!--<button (click)=\"navigateToLogin()\">Login</button>-->\r\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\r\n<router-outlet></router-outlet>\r\n\r\n<div style=\"padding: 10px;\">{{ time | date: 'hh:mm:ss a' }}</div>\r\n"
 
 /***/ }),
 
@@ -113,6 +113,10 @@ var AppComponent = /** @class */ (function () {
         this.router = router;
     }
     AppComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        setInterval(function () {
+            _this.time = new Date();
+        }, 1000);
     };
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
