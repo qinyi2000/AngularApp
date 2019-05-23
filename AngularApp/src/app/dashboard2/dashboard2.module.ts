@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { Dashboard2Component } from './dashboard2.component';
 
 @NgModule({
-  declarations: [    
+  declarations: [
     Dashboard2Component
   ],
   imports: [
@@ -12,4 +12,5 @@ import { Dashboard2Component } from './dashboard2.component';
   providers: [],
   bootstrap: []
 })
-export class Dashboard2Module { }
+export class Dashboard2Module {}
+

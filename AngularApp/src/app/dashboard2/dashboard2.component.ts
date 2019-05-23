@@ -6,11 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard2.component.css']
 })
 export class Dashboard2Component implements OnInit {
-
-  constructor() { }
+  title: String;
+  constructor() {
+    this.title = "AngularApp";}
 
   ngOnInit() {
     console.log("hello");
+
+
   }
 
 }
