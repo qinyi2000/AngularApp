@@ -8,12 +8,15 @@
 <h2>Here are some links to help you start: </h2>
 
 
-<div *ngIf = "links">
+<div *ngIf="links">
   <span>Content to display</span>
-    <ul>
-      <li *ngFor ="let link of links">
-        <h2><a href='{{link.url}}'>{{ link.name}}</a></h2>
-      </li>
-    </ul>
+  <ul>
+    <li *ngFor="let link of links">
+      <h2><a href='{{link.url}}'>{{ link.name}}</a></h2>
+    </li>
+  </ul>
 
-  </div>
+</div>
+
+<button (click)="navigateToLogin()">Login</button>
+

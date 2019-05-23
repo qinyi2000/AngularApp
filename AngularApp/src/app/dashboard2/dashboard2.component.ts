@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Link } from 'C:/AngularApp/AngularApp/src/app/model/link';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-dashboard2',
@@ -10,7 +11,7 @@ export class Dashboard2Component implements OnInit {
   title: String;
   links: Link[] = [];
 
-  constructor() {
+  constructor(private ActivatedRoute: ActivatedRoute, private router: Router) {
     this.title = "AngularApp";
     this.links = [{url: "https://angular.io/tutorial", name: "Heroes"},
       { url: "https://angular.io/cli", name: "Documentation" },
@@ -19,7 +20,9 @@ export class Dashboard2Component implements OnInit {
   }
 
   ngOnInit() {
-    console.log("hello");
   }
 
+  navigateToLogin() {
+    this.router.navigate(['/login'], { relativeTo: this.ActivatedRoute });
+  }
 }
